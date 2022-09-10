@@ -38,3 +38,17 @@ ul li{
     color: #831ED2;
     font-weight:500;
 }
+
+
+.iam-col-bottom-h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    width: 594px;
+    line-height: 82.34%;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+
+}
