@@ -14,15 +14,15 @@ body {
     color: #000000;
 }
 
-.nav-pills{
+.nav-pills {
     align-items: center;
 }
 
-ul li{
+ul li {
     color: black;
 }
 
-.nav-pills-castom{
+.nav-pills-castom {
     --bs-nav-link-disabled-color: #6c757d;
     display: flex;
     flex-wrap: wrap;
@@ -34,13 +34,13 @@ ul li{
     --bs-nav-link-padding-y: 0.5rem;
 }
 
-.nav-item-castom-active{
+.nav-item-castom-active {
     color: #831ED2;
-    font-weight:500;
+    font-weight: 500;
 }
 
 
-.iam-col-bottom-h1{
+.iam-col-bottom-h1 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -53,28 +53,50 @@ ul li{
 
 }
 
-.block-line{
+.block-line {
     background-color: #000000;
     width: 35px;
     margin: 0;
     height: 3px;
 }
 
-.col-block-line{
+.col-block-line {
     align-self: center;
     margin: 0;
     padding: 0;
 }
 
-.block-hello-p{
+.block-hello-p {
     padding: 0;
     margin: 0;
 }
 
-.col-left-main-hello{
-    margin-top: 100px;
+
+.container-main {
+    padding-top: 150px;
 }
 
-.row-main-hello{
-    margin-top: 100px;
+.row-top {
+    margin-bottom: 10px;
+}
+
+.col-right-main-hello {
+    padding-top: 50px;
+}
+
+.about-text-h4{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #000000;
+}
+
+.about-row-top{
+    margin-bottom: 20px;
+}
+
+.about-col-line-block {
+    margin-bottom: 60px;
 }
