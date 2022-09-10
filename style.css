@@ -39,10 +39,11 @@ ul li {
     font-weight: 500;
 }
 
-.nav-item-castom{
+.nav-item-castom {
     font-size: 14px;
     padding: 10px 20px;
 }
+
 .iam-col-bottom-h1 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -90,16 +91,16 @@ ul li {
     position: relative;
 }
 
-.about-text-h4{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-color: #000000;
+.about-text-h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
 }
 
-.about-row-top{
+.about-row-top {
     margin-bottom: 20px;
 }
 
@@ -107,30 +108,30 @@ color: #000000;
     margin-bottom: 60px;
 }
 
-.col-right-main-hello::before{
+.col-right-main-hello::before {
     left: 80%;
     position: absolute;
     content: url(./img/god_designer.png);
     top: -55%;
 }
 
-.col-left-main-hello{
+.col-left-main-hello {
     align-self: center;
 }
 
-.about-col{
+.about-col {
     margin: auto;
     width: 515px;
 }
 
-.loader{
-  background-image: url(./img/Loader.png);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: revert;
+.loader {
+    background-image: url(./img/Loader.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-.links-block{
+.links-block {
     width: fit-content;
     transform: rotate(270deg);
     position: absolute;
@@ -138,17 +139,76 @@ color: #000000;
     top: 39%;
 }
 
-.link{
+.link {
     font-size: 14px;
     color: black;
     text-decoration: none;
 }
 
-.link-a{
+.link-a {
     color: black;
     text-decoration: none;
 }
 
-.links-span{
+.links-span {
     font-weight: 600;
+}
+
+.filters-block {
+    width: 660px;
+    margin: auto;
+}
+
+.filter-h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 145px;
+    margin: auto;
+    color: #000000;
+}
+
+.filter-h5-active {
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 145px;
+}
+
+.row-filters-top {
+    margin-bottom: 20px;
+}
+
+.filters-item-block {
+    background-color: #19002D;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.filters-item-block-row {
+    justify-content: center;
+}
+
+.filters-item-span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 82.34%;
+    color: #F5F5F5;
+}
+
+.filters-item-col{
+    width: auto !important;
+}
+
+.filters-items-top{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.filters-items-bottom{
+margin-bottom: 50px;
 }
