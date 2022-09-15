@@ -157,6 +157,7 @@ ul li {
 .filters-block {
     width: 660px;
     margin: auto;
+    margin-bottom: 150px;
 }
 
 .filter-h5 {
@@ -189,7 +190,7 @@ ul li {
 }
 
 .filters-item-block-noactive {
-    background-color: white ;
+    background-color: white;
     color: #19002D;
     border-radius: 20px;
     border: 1px solid #19002D;
@@ -207,21 +208,45 @@ ul li {
     color: #F5F5F5;
 }
 
-.filters-item-col{
+.filters-item-col {
     width: auto !important;
 }
 
-.filters-items-top{
+.filters-items-top {
     width: fit-content;
     margin: auto;
     margin-bottom: 15px;
 }
 
-.filters-items-bottom{
-margin-bottom: 50px;
+.filters-items-bottom {
+    margin-bottom: 50px;
 }
 
-.filters-item-noactive{
+.filters-item-noactive {
     color: #19002D;
     font-weight: 500;
+}
+
+.projects-h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 82.34%;
+    align-items: center;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.projects-h1-block{
+    border-bottom: 2px solid #000000;
+    margin-bottom: 75px;
+}
+
+.project1-pic{
+width: 100%;
+}
+
+.projects-example-pic{
+    width: 350px;
 }
