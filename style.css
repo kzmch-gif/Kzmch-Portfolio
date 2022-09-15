@@ -188,6 +188,14 @@ ul li {
     padding: 5px 15px;
 }
 
+.filters-item-block-noactive {
+    background-color: white ;
+    color: #19002D;
+    border-radius: 20px;
+    border: 1px solid #19002D;
+    padding: 5px 15px;
+}
+
 .filters-item-block-row {
     justify-content: center;
 }
@@ -211,4 +219,9 @@ ul li {
 
 .filters-items-bottom{
 margin-bottom: 50px;
+}
+
+.filters-item-noactive{
+    color: #19002D;
+    font-weight: 500;
 }
