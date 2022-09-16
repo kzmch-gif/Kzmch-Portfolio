@@ -238,15 +238,37 @@ ul li {
     padding-bottom: 20px;
 }
 
-.projects-h1-block{
+.projects-h1-block {
     border-bottom: 2px solid #000000;
     margin-bottom: 75px;
 }
 
-.project1-pic{
-width: 100%;
+.project1-pic {
+   
+    height: auto;
 }
 
-.projects-example-pic{
-    width: 350px;
+.projects-example-pic {
+    width: 100%;
+    align-items: center;
+}
+
+.col4{
+    width: 31.333333% !important;
+}
+
+.col2{
+    width: 5.166667% !important;
+}
+
+.btn-add-block {
+    width: 100%;
+    height: 39px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.btn-add-plus{
+    margin: 0;
 }
