@@ -325,7 +325,7 @@ fa-plus:before {
     line-height: 1;
 }
 
-.projects-container{
+.projects-container {
     margin-bottom: 175px;
 }
 
@@ -345,11 +345,11 @@ fa-plus:before {
     margin-bottom: 75px;
 }
 
-.p-examples{
+.p-examples {
     font-size: 14px;
 }
 
-.skill-span{
+.skill-span {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -359,28 +359,46 @@ fa-plus:before {
 
 }
 
-.skill-block{
+.skill-block {
     padding: 0 15px;
     border-bottom: 1px solid black;
     padding-bottom: 5px;
     margin: 0 20px;
 }
 
-.skills-row{
+.skills-row {
     margin-bottom: 30px;
     justify-content: center;
 }
 
-.skill-block-active{
-border: 1px solid #000000;
-border-radius: 18px;
-padding: 5px 50px;
+.skill-block-active {
+    border: 1px solid #000000;
+    border-radius: 18px;
+    padding: 5px 50px;
 }
 
-.skills-container{
+.skills-container {
     margin-bottom: 50px;
 }
 
-.slick-slide{
+.slick-slide {
     text-align: center;
+    width: auto;
+    font-size: 14px;
+}
+
+.slide-item {
+    padding-right: 45px;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-next {
+    display: none !important;
+}
+
+.row-skills{
+    margin-bottom: 100px;
 }
