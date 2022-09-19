@@ -1,8 +1,9 @@
 $('.responsive').slick({
     infinite: false,
     autoplaySpeed: 0,
-    speed: 10000,
+    speed: 5000,
     slidesToShow: 9,
+    cssEase: 'linear',
     slidesToScroll: 1,
     autoplay: true,
     responsive: [
