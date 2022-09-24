@@ -1,3 +1,4 @@
+//Slick slider infinity scroll
 $('.responsive').slick({
     infinite: false,
     autoplaySpeed: 0,
@@ -5,6 +6,7 @@ $('.responsive').slick({
     slidesToShow: 9,
     cssEase: 'linear',
     slidesToScroll: 1,
+    arrows: false,
     autoplay: true,
     responsive: [
         {
@@ -32,3 +34,30 @@ $('.responsive').slick({
         }
     ]
 });
+
+//Slick slider portfolio
+$('.projects-slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    arrows: true,
+    slidesToScroll: 1
+});
+
+//Animation on scroll
+function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 10;
+
+        if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+        } else {
+            return 0
+        }
+    }
+}
+
+window.addEventListener("scroll", reveal);
