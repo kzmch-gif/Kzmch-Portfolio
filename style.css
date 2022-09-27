@@ -59,6 +59,18 @@ ul li {
 
 }
 
+.row>* {
+    flex-shrink: 0;
+    width: auto !important;
+}
+
+.col66 {
+
+    flex: 0 0 auto;
+    width: 50%;
+
+}
+
 .block-line {
     background-color: #000000;
     width: 35px;
@@ -291,7 +303,7 @@ ul li {
 
 .colhello {
     margin: auto;
-    width: 45% !important;
+    width: 45%;
 }
 
 button {
@@ -486,6 +498,7 @@ fa-plus:before {
 
 .row-about {
     margin-bottom: 75px;
+    justify-content: center;
 }
 
 .number-ido {
@@ -590,8 +603,9 @@ input:checked~.acc-content {
 .col-right-about {
     align-self: center;
     flex: 0 0 auto;
-    width: 50% !important;
+    width: 50%;
 }
+
 
 .contact-img {
     width: 50px;
@@ -657,4 +671,329 @@ footer {
     width: 100%;
     height: auto;
     transform: rotate(270deg);
+}
+
+.col4-footer {
+    display: contents;
+}
+
+@media (max-width: 821px) {
+    .about-col {
+        width: auto;
+    }
+
+    .project1-pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .arrow-block {
+        left: 89%;
+    }
+
+    .accordions {
+        width: 100%;
+    }
+
+    .h1-contacts {
+        margin: 0 30px;
+    }
+
+    .h1-iam {
+        width: 100%;
+    }
+
+    .h1-iam-bottom {
+        width: 100%;
+    }
+
+    .contact-img {
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+    }
+
+    .p-examples {
+        font-size: 13px;
+        width: 100%;
+        margin-bottom: 25px;
+        padding-right: 35px;
+    }
+
+    .project1-pic {
+        width: 86%;
+    }
+
+    .loader {
+        background-image: url(./img/Loader.png);
+        background-size: 117% auto;
+        background-repeat: no-repeat;
+        background-position: revert;
+    }
+
+    .col-right-main-hello {
+        padding-top: 0;
+    }
+
+    .colhello {
+        width: 95%;
+    }
+
+    .row-main-hello {
+        display: block;
+    }
+
+    .col-right-main-hello::before {
+        left: 100%;
+        position: absolute;
+        content: url(./img/god_designer.png);
+        top: -157%;
+    }
+
+    .links-block {
+        left: -8%;
+        top: 21%;
+    }
+
+    .nav-item-castom {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    .col-right-main-hello {
+        padding-top: 70px;
+        margin-left: 65px;
+    }
+
+    .about-col-line-block {
+        margin-bottom: 40px;
+    }
+
+    .row-filters-top {
+        justify-content: center;
+    }
+
+    .row-filters-item-bottom {
+        justify-content: center;
+    }
+
+    .about-h1-block {
+        border-bottom: 2px solid #000000;
+        margin-bottom: 60px;
+    }
+
+    .col-right-about {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 415px) {
+    .nav-pills-castom {
+        justify-content: center;
+    }
+
+    .nav-item-castom {
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+
+
+    .link {
+        font-size: 12px;
+    }
+
+    .col-right-main-hello::before {
+        content: '';
+        display: none;
+    }
+
+    .iam-col-bottom-h1 {
+        font-size: 37px;
+        width: 100%;
+    }
+
+    .filters-block {
+        width: 100%;
+    }
+
+    .col-right-main-hello {
+        margin-left: 15px;
+    }
+
+    .about-text-h4 {
+        font-size: 16px;
+    }
+
+    .projects-example-pic {
+        width: 80%;
+    }
+
+    .p-examples {
+        font-size: 13px;
+        width: 100%;
+        margin-bottom: 25px;
+        padding-right: 79px;
+    }
+
+    .slick-slide {
+        margin-left: 10px;
+    }
+
+    .slick-next {
+        background-color: #ffffff;
+        border-radius: 25px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid black;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+        position: absolute;
+        top: 24%;
+        left: 90%;
+    }
+
+    .projects-block {
+        height: 740px;
+    }
+
+    .projects-container {
+        margin-bottom: 0;
+    }
+
+    .skill-block {
+        border-bottom: 1px solid black;
+        padding-bottom: 5px;
+        margin: 12px 8px;
+    }
+
+    .arrow-block {
+        left: 80%;
+    }
+
+    .col-right-about {
+        width: 90%;
+    }
+
+    .h1-contacts {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .col4-footer {
+        display: flex;
+    }
+
+    .h1-contacts {
+        margin: 5px 0;
+    }
+
+    footer {
+        background-size: 300% auto;
+    }
+
+    .block-hello-p {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .col-block-hello-p {
+        padding: 0;
+    }
+
+    .row-top {
+        justify-content: center;
+        padding-left: 15px;
+    }
+
+    .iam-col-bottom-h1 {
+        font-size: 38px;
+        width: 96%;
+        margin-left: 29px;
+        margin: auto;
+    }
+
+    .block-line {
+        background-color: #000000;
+        width: 27px;
+        margin: 0;
+        height: 3px;
+    }
+
+    .col-block-line {
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    .container-main {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .links-block {
+        width: fit-content;
+        transform: rotate(360deg);
+        left: 24%;
+        top: 18%;
+    }
+
+    .col-block-hello-p {
+        padding: 0;
+    }
+
+    .col-right-main-hello {
+        padding: 45px 15px;
+        margin: 0;
+    }
+
+    .iam-col-bottom-h1{
+        margin-left: 0;
+    }
+
+    .row-top{
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .about-row-top{
+        width: 90%;
+    }
+
+    .filter-h5{
+        width: 100%;
+    }
+
+    .filter{
+        margin: 0 10px;
+    }
+
+    .filters-items-top-row{
+        justify-content: center;
+    }
+
+    .filters-items-top {
+        width: 78%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .filters-item-col{
+        margin-bottom: 10px;
+    }
+
+    .filters-items-bottom{
+        margin-bottom: 0;
+    }
+    .slick-next{
+        top: 57%;
+    left: 81%;
+    }
+
+    .loader{
+  
+            background-image: url(./img/Loader.png);
+            background-size: 300% auto;
+            background-repeat: no-repeat;
+            background-position: top;
+    }
 }
