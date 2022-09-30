@@ -1,6 +1,6 @@
 //Slick slider infinity scroll
 $('.responsive').slick({
-    infinite: false,
+    infinite: true,
     autoplaySpeed: 0,
     speed: 5000,
     slidesToShow: 9,
